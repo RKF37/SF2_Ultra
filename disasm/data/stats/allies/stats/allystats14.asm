@@ -8,5 +8,5 @@ AllyStats14:    forClass  MOUS ; MARILL
                 defGrowth 36, 195, EARLY
                 agiGrowth 33,155, LINEAR
                 spellList &
-              1,AQUA|LV2
+              1,AQUA|LV2,&
               2,SNOW|LV3
