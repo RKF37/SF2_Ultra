@@ -250,11 +250,11 @@ tbl_ItemDefs:
                 equipFlags2  ALL
                 range        0, 0
                 price        3000
-                itemType     RING|RARE|BREAKABLE
-                useSpell     BOOST
-                equipEffects INCREASE_DEF, 5, &
-                             NONE, 0, &
-                             NONE, 0
+                itemType     RING|RARE
+                useSpell     BOOST|LV3
+                equipEffects INCREASE_DEF, 15, &
+                             INCREASE_AGI, 15, &
+                             INCREASE_MOV, 2
                 
                 ; 21: Quick Ring
                 equipFlags   PHNK|PHNX|WARR|GLDT|BRN
@@ -371,8 +371,8 @@ tbl_ItemDefs:
                 equipFlags2  NONE
                 range        1, 1
                 price        7500
-                itemType     WEAPON|RARE|BREAKABLE
-                useSpell     MUDDLE
+                itemType     WEAPON|RARE
+                useSpell     MUDDLE|LV3
                 equipEffects INCREASE_ATT, 55, &
                              NONE, 0, &
                              NONE, 0
@@ -624,8 +624,8 @@ tbl_ItemDefs:
                 equipFlags2  SNII
                 range        2, 3
                 price        9800
-                itemType     WEAPON|RARE|BREAKABLE
-                useSpell     DISPEL
+                itemType     WEAPON|RARE
+                useSpell     DISPEL|LV3
                 equipEffects INCREASE_ATT, 43, &
                              NONE, 0, &
                              NONE, 0
@@ -701,7 +701,7 @@ tbl_ItemDefs:
                 equipFlags2  GLDD|HERR
                 range        1, 1
                 price        1550
-                itemType     WEAPON|RARE|CURSED
+                itemType     WEAPON|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 20, &
                              INCREASE_DEF, 2, &
@@ -768,8 +768,8 @@ tbl_ItemDefs:
                 range        1, 1
                 price        10000
                 itemType     WEAPON|RARE|UNSELLABLE
-                useSpell     NOTHING
-                equipEffects INCREASE_ATT, 46, &
+                useSpell     PYTHON|LV3
+                equipEffects INCREASE_ATT,55, &
                              NONE, 0, &
                              NONE, 0
                 
@@ -800,7 +800,7 @@ tbl_ItemDefs:
                 equipFlags2  STAR|NINJ|RDBN
                 range        1, 1
                 price        16000
-                itemType     WEAPON|RARE|CURSED|BREAKABLE
+                itemType     WEAPON|RARE
                 useSpell     TORNADO
                 equipEffects INCREASE_ATT, 50, &
                              DECREASE_DEF, 5, &
@@ -1130,8 +1130,8 @@ tbl_ItemDefs:
                 equipFlags2  WIZZ|WITC
                 range        1, 1
                 price        10000
-                itemType     WEAPON|RARE|BREAKABLE
-                useSpell     ICE|LV3
+                itemType     WEAPON|RARE
+                useSpell     ICE|LV4
                 equipEffects INCREASE_ATT, 35, &
                              UNDEFINED2, 2, &
                              NONE, 0
@@ -1230,7 +1230,7 @@ tbl_ItemDefs:
                 range        1, 1
                 price        15000
                 itemType     WEAPON|RARE
-                useSpell     NOTHING
+                useSpell     DEMON|LV3
                 equipEffects INCREASE_ATT, 48, &
                              INCREASE_DEF, 5, &
                              NONE, 0
@@ -1240,9 +1240,9 @@ tbl_ItemDefs:
                 equipFlags2  STAR
                 range        1, 2
                 price        11000
-                itemType     WEAPON|RARE|CURSED|BREAKABLE
+                itemType     WEAPON|RARE
                 useSpell     BOLT|LV2
-                equipEffects INCREASE_ATT, 25, &
+                equipEffects INCREASE_ATT, 36, &
                              INCREASE_DEF, 1, &
                              NONE, 0
                 
@@ -1353,7 +1353,7 @@ tbl_ItemDefs:
                 itemType     RING|RARE
                 useSpell     NOTHING
                 equipEffects INCREASE_ATT, 5, &
-                             DECREASE_MOV, 1, &
+                            INCREASE_MOV, 1, &
                              NONE, 0
                 
                 ; 121: Secret Book
@@ -1364,7 +1364,7 @@ tbl_ItemDefs:
                 itemType     RING|RARE|BREAKABLE
                 useSpell     BOOST|LV2
                 equipEffects INCREASE_DEF, 3, &
-                             INCREASE_MOV, 1, &
+                             INCREASE_MOV,2, &
                              NONE, 0
                 
                 ; 122: Vigor Ball
@@ -1373,10 +1373,10 @@ tbl_ItemDefs:
                 range        0, 0
                 price        7450
                 itemType     RING|RARE|BREAKABLE
-                useSpell     THUNDER|LV3
+                useSpell     THUNDER|LV4
                 equipEffects INCREASE_AGI, 10, &
-                             NONE, 0, &
-                             NONE, 0
+                             INCREASE, 10, &
+                            NCREASE_MOV,2
                 
                 ; 123: Mithril
                 equipFlags   NONE
