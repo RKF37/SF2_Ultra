@@ -17,7 +17,7 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     WOODEN_SWORD|EQUIPPED, &
-                    MEDICAL_HERB, &
+                    PROTECT_RING|EQUIPPED, &
                     ANGEL_WING, &
                     NOTHING
                 
@@ -25,8 +25,8 @@ tbl_AllyStartDefs:
                 startLevel 1
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    MEDICAL_HERB, &
-                    NOTHING, &
+                    PROTECT_RING|EQUIPPED, &
+                    GIANT_KNUCKLES, &
                     NOTHING
                 
                 startClass KNTE         ; 2: CHESTER
@@ -46,12 +46,12 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN
-                startLevel 5
+                startLevel 7
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
-                    HEALING_SEED, &
+                    PROTECT_RING|EQUIPPED, &
                     FAIRY_POWDER, &
-                    NOTHING
+                    MYSTERY_STAFF
                 
                 startClass THIF         ; 5: SLADE
                 startLevel 7
@@ -65,7 +65,7 @@ tbl_AllyStartDefs:
                 startLevel 9
                 startItems &
                     SHORT_ROD|EQUIPPED, &
-                    MANA, &
+                    PROTECT_RING, &
                     BRAVE_APPLE, &
                     NOTHING
                 
@@ -73,9 +73,9 @@ tbl_AllyStartDefs:
                 startLevel 11
                 startItems &
                     BRAVE_APPLE, &
-                    ANTIDOTE, &
-                    NOTHING, &
-                    NOTHING
+                   BRAVE_APPLE, &
+                    BRAVE_APPLE, &
+                    BRAVE_APPLE
                 
                 startClass RNGR         ; 8: MAY
                 startLevel 12
@@ -97,9 +97,9 @@ tbl_AllyStartDefs:
                 startLevel 17
                 startItems &
                     LONG_SWORD|EQUIPPED, &
-                    BLIZZARD, &
-                    BOMB, &
-                    NOTHING
+                    PROTECT_RING|EQUIPPED, &
+                    BRAVE_APPLE, &
+                    COUNTER_SWORD
                 
                 startClass HERR         ; 11: NICK
                 startLevel 1
@@ -113,9 +113,9 @@ tbl_AllyStartDefs:
                 startLevel 24
                 startItems &
                     STEEL_SWORD|EQUIPPED, &
-                    POWER_AXE, &
-                    HELMET|EQUIPPED, &
-                    HEALING_BERRIES
+                    PROTECT_RING|EQUIPPED, &
+                    BRAVE_APPLE, &
+                    BRAVE_APPLE
                 
                 startClass WOLF         ; 13: ZYLO
                 startLevel 27
@@ -152,10 +152,10 @@ tbl_AllyStartDefs:
                 startClass WITC         ; 17: ANRI
                 startLevel 1
                 startItems &
-                    BRONZE_ROD|EQUIPPED, &
+                    MYSTERY_STAFF|EQUIPPED, &
                     ELIXIR, &
                     MANA, &
-                    NOTHING
+                    BRAVE_APPLE
                 
                 startClass ACHR         ; 18: JANET
                 startLevel 30
