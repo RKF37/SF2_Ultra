@@ -1372,10 +1372,10 @@ tbl_ItemDefs:
                 equipFlags2  WITC
                 range        0, 0
                 price        7450
-                itemType     RING|RARE|BREAKABLE
+                itemType     RING|RARE
                 useSpell     THUNDER|LV4
                 equipEffects INCREASE_AGI, 10, &
-                             INCREASE, 10, &
+                             INCREASE_DEF, 10, &
                             INCREASE_MOV,2
                 
                 ; 123: Mithril
@@ -1572,10 +1572,10 @@ tbl_ItemDefs:
                 range        0, 0
                 price        755
                 itemType     RING|RARE|UNSELLABLE
-                useSpell     NOTHING
+                useSpell     HEALIN|LV4
                 equipEffects INCREASE_ATT, 1, &
                              INCREASE_DEF, 2, &
-                             NONE, 0
+                            INCREASE_MOV, 2
                 
                 ; 141: ATTACK_RING
                 equipFlags   SDMN|HERO|KNTE|WARR|BDMN|WFMN|PHNK|THIF|PLDN|PHNX|BDBT|GLDT|BRN|SWOR|KENT
@@ -1672,7 +1672,7 @@ tbl_ItemDefs:
                 price        3500
                 itemType     RING|RARE
                 useSpell     NOTHING
-                equipEffects INCREASE_MOV, 1, &
+                equipEffects INCREASE_MOV, 2, &
                              INCREASE_DEF, 5, &
                              INCREASE_AGI, 15
                 
