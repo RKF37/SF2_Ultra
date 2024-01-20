@@ -21,11 +21,11 @@ AllyStats00:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 forClass  SDMN           ; BOWIE
-                hpGrowth  12, 55, LINEAR
-                mpGrowth  0, 35, EARLY
-                attGrowth 6, 42, LINEAR
-                defGrowth 4, 35, LINEAR
-                agiGrowth 4, 35, EARLY
+                hpGrowth  12, 75, LINEAR
+                mpGrowth  7, 65, EARLY
+                attGrowth 6, 55, LINEAR
+                defGrowth 4, 45, LINEAR
+                agiGrowth 4, 45, EARLY
                 spellList &
                    1,PYTHON|LV3,&
                    2, ATOM, & 
@@ -40,7 +40,7 @@ AllyStats00:
                 forClass  HERO
                 hpGrowth  55, 195, LINEAR
                 mpGrowth  16,180, EARLY
-                attGrowth 42, 95, LINEAR
+                attGrowth 42, 195, LINEAR
                 defGrowth 35, 173, LINEAR
                 agiGrowth 22, 152, EARLYANDLATE
                 useFirstSpellList
