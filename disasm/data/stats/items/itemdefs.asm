@@ -1376,7 +1376,7 @@ tbl_ItemDefs:
                 useSpell     THUNDER|LV4
                 equipEffects INCREASE_AGI, 10, &
                              INCREASE, 10, &
-                            NCREASE_MOV,2
+                            INCREASE_MOV,2
                 
                 ; 123: Mithril
                 equipFlags   NONE
