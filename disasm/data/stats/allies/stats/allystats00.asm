@@ -25,8 +25,9 @@ AllyStats00:
                 mpGrowth  0, 35, EARLY
                 attGrowth 6, 42, LINEAR
                 defGrowth 4, 35, LINEAR
-                agiGrowth 4, 22, EARLY
-                spellList &	
+                agiGrowth 4, 35, EARLY
+                spellList &
+                   1,PYTHON|LV3,&
                    2, ATOM, & 
                    5, ATOM|LV2, &
                    10, ATOM|LV3, &
@@ -34,13 +35,13 @@ AllyStats00:
                    17, BOLT, &
                    25, BOLT|LV3, &
                    20, BOLT|LV2, &
-				   30, BOLT|LV4, &
+		  28,BOLT|LV4,&
                    3, EGRESS
                 forClass  HERO
-                hpGrowth  55, 135, LINEAR
-                mpGrowth  16,75, EARLY
+                hpGrowth  55, 195, LINEAR
+                mpGrowth  16,180, EARLY
                 attGrowth 42, 95, LINEAR
-                defGrowth 35, 73, LINEAR
-                agiGrowth 22, 52, EARLYANDLATE
+                defGrowth 35, 173, LINEAR
+                agiGrowth 22, 152, EARLYANDLATE
                 useFirstSpellList
                 
