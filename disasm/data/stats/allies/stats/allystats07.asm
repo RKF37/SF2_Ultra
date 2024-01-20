@@ -3,20 +3,23 @@
 ; 0x1EE476..0x1EE498 : Ally stats 07
 AllyStats07:    forClass  PHNK  ; PETER
                 hpGrowth  12, 48, LINEAR
-                mpGrowth  0, 0, NONE
+                mpGrowth  0, 50, EARLY
                 attGrowth 10, 75, LINEAR
                 defGrowth 8, 43, LINEAR
                 agiGrowth 4, 35, LINEAR
-                spellList 
+                spellList &
+                1,FLAME|LV4,&
+                10,BLAZE|LV4
                     
                 forClass  PHNX
                 hpGrowth  48, 115, LINEAR
-                mpGrowth  0, 26, LATE
+                mpGrowth  0, 126, LATE
                 attGrowth 75, 145, LATE
                 defGrowth 43, 95, LINEAR
                 agiGrowth 35, 70, LINEAR
                 spellList & 
-                    34, BOOST, &
+                    34, BOOST|LV3, &
                     36, KATON, &
                     37, KATON|LV2, &
-                    40, KATON|LV3
+                    40, KATON|LV3,&
+                    45,KATON|LV4
