@@ -3,15 +3,15 @@
 ; 0x1EE3D1..0x1EE426 : Ally stats 04
 AllyStats04:    forClass  MAGE   ; KAZIN
                 hpGrowth  10, 59, LINEAR
-                mpGrowth  7, 32, EARLY
+                mpGrowth  7, 79, EARLY
                 attGrowth 4, 18, LINEAR
-                defGrowth 4, 28, LINEAR
-                agiGrowth 6, 40, LINEAR
+                defGrowth 4, 38, LINEAR
+                agiGrowth 6, 50, LINEAR
                 spellList &
                     1, BLAZE, &
-                    6, BLAZE|LV2, &					
-                    36, BLAZE|LV3, &                             
-                    45, BLAZE|LV4, &
+                    2, BLAZE|LV2, &					
+                    6, BLAZE|LV3, &                             
+                    15, BLAZE|LV4, &
                     10, RAIJIN, &
                     15, RAIJIN|LV2, &
                     29, RAIJIN|LV3, &
@@ -20,7 +20,7 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                     21, ICE|LV2, &
                     33, ICE|LV3, &
                     53, ICE|LV4, &
-                    50, DISPEL
+                    50, DISPEL|LV3
                     
                 forClass  WIZ
                 hpGrowth  59, 109, LATE
@@ -31,21 +31,22 @@ AllyStats04:    forClass  MAGE   ; KAZIN
                 useFirstSpellList
                     
                 forClass  SORC
-                hpGrowth  59, 88, LATE
-                mpGrowth  32, 115, LINEAR
+                hpGrowth  59, 188, LATE
+                mpGrowth  32, 200, LINEAR
                 attGrowth 18, 50, LINEAR
                 defGrowth 28, 66, LINEAR
                 agiGrowth 40, 70, EARLYANDLATE
                 spellList &
                     29, DAO, &
-                    42, DAO|LV2, &
-                    47, DAO|LV3, &
+                    32, DAO|LV2, &
+                    40, DAO|LV3, &
                     34, APOLLO, &                                        
                     45, APOLLO|LV2, &
                     52, APOLLO|LV3, &
                     37, NEPTUN, &
                     48, NEPTUN|LV2, &
-                    49, NEPTUN|LV3
+                    49, NEPTUN|LV3,&
+                    33,ATLAS|LV3
 					
                     
                     
