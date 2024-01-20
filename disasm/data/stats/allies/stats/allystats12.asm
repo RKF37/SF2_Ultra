@@ -17,10 +17,10 @@ AllyStats12:    forClass  SWOR ; DEANNA
 
                 forClass  STAR
                 hpGrowth  46, 130, LINEAR
-                mpGrowth  16, 56, EARLY
-                attGrowth 47, 90, LINEAR
-                defGrowth 42, 93, LINEAR
-                agiGrowth 34, 62, EARLYANDLATE
+                mpGrowth  16, 156, EARLY
+                attGrowth 47, 190, LINEAR
+                defGrowth 42, 193, LINEAR
+                agiGrowth 34, 162, EARLYANDLATE
                 useFirstSpellList
                 
                 
