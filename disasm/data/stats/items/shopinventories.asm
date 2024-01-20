@@ -179,19 +179,19 @@ tbl_ShopInventories:
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 16
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 17
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               ANTIDOTE, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 18 ; МЕЙ 
                 shopInventory MANA, &
@@ -200,7 +200,7 @@ tbl_ShopInventories:
                               HEALING_DROP, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 19
                 shopInventory MANA, &
@@ -210,7 +210,7 @@ tbl_ShopInventories:
                               HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 20
                 shopInventory MEDICAL_HERB, &
@@ -219,14 +219,14 @@ tbl_ShopInventories:
                               HEALING_BERRIES, &
                               ANTIDOTE, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 21
                 shopInventory MEDICAL_HERB, &
                               HEALING_SEED, &
                               HEALING_DROP, &
                               HEALING_BERRIES, &
-                              ANTIDOTE, &
+                              BRAVE_APPLE, &
                               FAIRY_POWDER, &
                               MANA
                 
@@ -237,7 +237,7 @@ tbl_ShopInventories:
                               HEALING_BERRIES, &
                               MANA, &
                               FAIRY_POWDER, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                 ; SHOP_INDEX: 23
                 shopInventory MEDICAL_HERB, &
@@ -246,7 +246,7 @@ tbl_ShopInventories:
                               HEALING_BERRIES, &
                               ANTIDOTE, &
                               MANA, &
-                              ANGEL_WING
+                              BRAVE_APPLE
                 
                ; SHOP_INDEX: 24
                 shopInventory MEDICAL_HERB, &
