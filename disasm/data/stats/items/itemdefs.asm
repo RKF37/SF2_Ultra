@@ -194,7 +194,7 @@ tbl_ItemDefs:
                 equipFlags   NONE
                 equipFlags2  NONE
                 range        0, 0
-                price        800
+                price        80
                 itemType     CONSUMABLE
                 useSpell     BRAVE
                 equipEffects NONE, 0, &
