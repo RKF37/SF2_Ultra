@@ -14,15 +14,15 @@ tbl_AllyStartDefs:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 startClass SDMN         ; 0: BOWIE
-                startLevel 1
+                startLevel 30
                 startItems &
                     WOODEN_SWORD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
                     ANGEL_WING, &
-                    NOTHING
+                    LEVANTER
                 
                 startClass PRST         ; 1: SARAH
-                startLevel 1
+                startLevel 30
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -30,7 +30,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass KNTE         ; 2: CHESTER
-                startLevel 1
+                startLevel 30
                 startItems &
                     WOODEN_STICK|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -38,7 +38,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WARR         ; 3: JAHA
-                startLevel 1
+                startLevel 30
                 startItems &
                     BATON|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -46,7 +46,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN
-                startLevel 7
+                startLevel 30
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -54,23 +54,23 @@ tbl_AllyStartDefs:
                     MYSTERY_STAFF
                 
                 startClass THIF         ; 5: SLADE
-                startLevel 7
+                startLevel 30
                 startItems &
                     SHORT_KNIFE|EQUIPPED, &
                     ARSON, &
                     HEALING_DROP, &
-                    NOTHING
+                    GISARME
                 
                 startClass MAGG         ; 6: NATASHA
-                startLevel 9
+                startLevel 30
                 startItems &
                     SHORT_ROD|EQUIPPED, &
                     PROTECT_RING, &
                     BRAVE_APPLE, &
-                    NOTHING
+                    MYSTERY_STAFF
                 
                 startClass PHNK         ; 7: PETER
-                startLevel 11
+                startLevel 30
                 startItems &
                     BRAVE_APPLE, &
                    BRAVE_APPLE, &
@@ -78,15 +78,15 @@ tbl_AllyStartDefs:
                     BRAVE_APPLE
                 
                 startClass RNGR         ; 8: MAY
-                startLevel 12
+                startLevel 30
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     MEDICAL_HERB, &
-                    NOTHING, &
+                    GRAND_CANNON, &
                     NOTHING
                 
                 startClass WFMN         ; 9: GERHALT
-                startLevel 16
+                startLevel 30
                 startItems &
                     HEALING_RAIN, &
                     NOTHING, &
@@ -94,7 +94,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass BDMN         ; 10: LUKE
-                startLevel 17
+                startLevel 30
                 startItems &
                     LONG_SWORD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -110,15 +110,15 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass SWOR         ; 12: DEANNA
-                startLevel 24
+                startLevel 30
                 startItems &
                     STEEL_SWORD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
                     BRAVE_APPLE, &
-                    BRAVE_APPLE
+                    BATTLE_SWORD
                 
                 startClass WOLF         ; 13: ZYLO
-                startLevel 27
+                startLevel 30
                 startItems &
                     BLIZZARD, &
                     HELMET|EQUIPPED, &
@@ -128,10 +128,10 @@ tbl_AllyStartDefs:
                 startClass MOUS         ; 14: MARILL
                 startLevel 1
                 startItems &
-                    NOTHING, &
-                    NOTHING, &
-                    NOTHING, &
-                    NOTHING
+                    BRAVE_APPLE, &
+                    BRAVE_APPLE, &
+                    BRAVE_APPLE, &
+                    BRAVE_APPLE
                 
                 startClass RNGR       ; 15: GRAHAM
                 startLevel 30
