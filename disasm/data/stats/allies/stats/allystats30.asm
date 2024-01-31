@@ -7,7 +7,13 @@ AllyStats30:    forClass  ACHH ; SHADE
                 attGrowth 6, 46, LINEAR
                 defGrowth 5,45, LATE
                 agiGrowth 6,50, EARLY
-                spellList 
+                spellList &
+                2,BEAM,&
+                3,BLACK_MAGIC,&
+                10,BEAM|LV2,&
+                15,BLACK_MAGIC|LV2,&
+                20,BEAM|LV3,&
+                30,BEAM|LV4
                     
                 forClass  SNII
                 hpGrowth  44, 150, LATE
