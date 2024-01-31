@@ -1340,10 +1340,10 @@ tbl_ItemDefs:
                 range        0, 0
                 price        1000
                 itemType     RING|RARE
-                useSpell     NOTHING
-                equipEffects INCREASE_ATT, 2, &
-                             INCREASE_DEF, 2, &
-                             INCREASE_MOV, 1
+                useSpell     BOOST|LV3
+                equipEffects INCREASE_ATT, 20, &
+                             INCREASE_DEF, 20, &
+                             INCREASE_MOV,3
                 
                 ; 120: Silver Tank
                 equipFlags   BRGN
