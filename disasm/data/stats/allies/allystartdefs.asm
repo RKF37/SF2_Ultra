@@ -142,17 +142,17 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WARU         ; 16: RUCE
-                startLevel 13
+                startLevel 30
                 startItems &
                     HAND_AXE|EQUIPPED, &
-                    HEALING_BERRIES, &
+                    RUNE_AXE, &
                     NOTHING, &
                     NOTHING
                 
                 startClass WITC         ; 17: ANRI
                 startLevel 1
                 startItems &
-                    MYSTERY_STAFF|EQUIPPED, &
+                    BISHOP_ROD|EQUIPPED, &
                     ELIXIR, &
                     MANA, &
                     BRAVE_APPLE
