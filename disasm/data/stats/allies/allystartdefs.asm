@@ -51,7 +51,7 @@ tbl_AllyStartDefs:
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
                     FAIRY_POWDER, &
-                    MYSTERY_STAFF
+                    BISHOP_ROD
                 
                 startClass THIF         ; 5: SLADE
                 startLevel 30
@@ -67,7 +67,7 @@ tbl_AllyStartDefs:
                     SHORT_ROD|EQUIPPED, &
                     PROTECT_RING, &
                     BRAVE_APPLE, &
-                    MYSTERY_STAFF
+                    BISHOP_ROD
                 
                 startClass PHNK         ; 7: PETER
                 startLevel 30
