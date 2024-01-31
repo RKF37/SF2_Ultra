@@ -1436,13 +1436,13 @@ tbl_ItemDefs:
             if (STANDARD_BUILD&EXPANDED_ITEMS_AND_SPELLS=1)
                 
                 ; 128: BISHOP_ROD
-                equipFlags   NONE
-                equipFlags2  NONE
+                equipFlags   WIZ|SORC
+                equipFlags2  WIZZ|WITC
                 range        1, 2
                 price        1200
-                itemType     WEAPON|RARE|BREAKABLE
+                itemType     WEAPON|RARE
                 useSpell     BLACK_MAGIC|LV2
-                equipEffects INCREASE_ATT, 10, &
+                equipEffects INCREASE_ATT, 55, &
                              NONE, 0, &
                              NONE, 0
                 
