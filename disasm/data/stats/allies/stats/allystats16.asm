@@ -10,10 +10,10 @@ AllyStats16:    forClass  WARU ; RUCE
                 spellList 
                 
                 forClass  GLDD
-                hpGrowth  36, 96, LINEAR
+                hpGrowth  36, 196, LINEAR
                 mpGrowth  0, 0, NONE
-                attGrowth 49, 89, LINEAR
-                defGrowth 46, 108, LINEAR
-                agiGrowth 30, 48, EARLY
+                attGrowth 49, 189, LINEAR
+                defGrowth 46, 158, LINEAR
+                agiGrowth 30, 148, EARLY
                 spellList 
                 
