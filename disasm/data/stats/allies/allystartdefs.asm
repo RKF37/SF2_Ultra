@@ -254,11 +254,11 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHH        ; 30 SHADE
-                startLevel 2
+                startLevel 30
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     HEALING_SEED, &
-                    NOTHING, &
+                    GRAND_CANNON, &
                     NOTHING
                 
                 startClass GRDR       ; 31 BLEU
