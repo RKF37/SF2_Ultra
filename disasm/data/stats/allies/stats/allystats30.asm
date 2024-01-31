@@ -3,18 +3,18 @@
 ; 0x1EE31C..0x1EE36B : Ally stats 30
 AllyStats30:    forClass  ACHH ; SHADE
                 hpGrowth  8, 44, LATE
-                mpGrowth  0, 0, NONE
+                mpGrowth  0,50, NONE
                 attGrowth 6, 46, LINEAR
-                defGrowth 5, 26, LATE
-                agiGrowth 6, 30, EARLY
+                defGrowth 5,45, LATE
+                agiGrowth 6,50, EARLY
                 spellList 
                     
                 forClass  SNII
-                hpGrowth  44, 109, LATE
-                mpGrowth  0, 0, NONE
-                attGrowth 46, 100, LINEAR
-                defGrowth 26, 70, LINEAR
-                agiGrowth 30, 63, LINEAR
+                hpGrowth  44, 150, LATE
+                mpGrowth  0,100, EARLY
+                attGrowth 46, 150, LINEAR
+                defGrowth 26, 170, LINEAR
+                agiGrowth 30, 163, LINEAR
                 spellList 
 
                     
