@@ -27,14 +27,14 @@ tbl_AllyStartDefs:
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
                     GIANT_KNUCKLES, &
-                    NOTHING
+                    power water
                 
                 startClass KNTE         ; 2: CHESTER
                 startLevel 1
                 startItems &
                     WOODEN_STICK|EQUIPPED, &
                     MEDICAL_HERB, &
-                    NOTHING, &
+                    power water, &
                     NOTHING
                 
                 startClass WARR         ; 3: JAHA
@@ -42,7 +42,7 @@ tbl_AllyStartDefs:
                 startItems &
                     BATON|EQUIPPED, &
                     MEDICAL_HERB, &
-                    NOTHING, &
+                    power water, &
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN
@@ -254,7 +254,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHH        ; 30 SHADE
-                startLevel 1
+                startLevel 3
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     HEALING_SEED, &
