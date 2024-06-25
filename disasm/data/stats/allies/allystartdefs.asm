@@ -14,7 +14,7 @@ tbl_AllyStartDefs:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 startClass SDMN         ; 0: BOWIE
-                startLevel 30
+                startLevel 1
                 startItems &
                     WOODEN_SWORD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -22,7 +22,7 @@ tbl_AllyStartDefs:
                     LEVANTER
                 
                 startClass PRST         ; 1: SARAH
-                startLevel 30
+                startLevel 1
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -30,7 +30,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass KNTE         ; 2: CHESTER
-                startLevel 30
+                startLevel 1
                 startItems &
                     WOODEN_STICK|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -38,7 +38,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WARR         ; 3: JAHA
-                startLevel 30
+                startLevel 1
                 startItems &
                     BATON|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -46,7 +46,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass MAGE         ; 4: KAZIN
-                startLevel 30
+                startLevel 4
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -54,7 +54,7 @@ tbl_AllyStartDefs:
                     BISHOP_ROD
                 
                 startClass THIF         ; 5: SLADE
-                startLevel 30
+                startLevel 7
                 startItems &
                     SHORT_KNIFE|EQUIPPED, &
                     ARSON, &
@@ -62,7 +62,7 @@ tbl_AllyStartDefs:
                     GISARME
                 
                 startClass MAGG         ; 6: NATASHA
-                startLevel 30
+                startLevel 11
                 startItems &
                     SHORT_ROD|EQUIPPED, &
                     PROTECT_RING, &
@@ -70,7 +70,7 @@ tbl_AllyStartDefs:
                     BISHOP_ROD
                 
                 startClass PHNK         ; 7: PETER
-                startLevel 30
+                startLevel 11
                 startItems &
                     BRAVE_APPLE, &
                    BRAVE_APPLE, &
@@ -78,7 +78,7 @@ tbl_AllyStartDefs:
                     BRAVE_APPLE
                 
                 startClass RNGR         ; 8: MAY
-                startLevel 30
+                startLevel 14
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     MEDICAL_HERB, &
@@ -86,7 +86,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass WFMN         ; 9: GERHALT
-                startLevel 30
+                startLevel 16
                 startItems &
                     HEALING_RAIN, &
                     NOTHING, &
@@ -94,7 +94,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass BDMN         ; 10: LUKE
-                startLevel 30
+                startLevel 18
                 startItems &
                     LONG_SWORD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -102,7 +102,7 @@ tbl_AllyStartDefs:
                     COUNTER_SWORD
                 
                 startClass HERR         ; 11: NICK
-                startLevel 1
+                startLevel 10
                 startItems &
                     BROAD_SWORD|EQUIPPED, &
                     HEALING_DROP, &
@@ -254,7 +254,7 @@ tbl_AllyStartDefs:
                     NOTHING
                 
                 startClass ACHH        ; 30 SHADE
-                startLevel 30
+                startLevel 1
                 startItems &
                     WOODEN_ARROW|EQUIPPED, &
                     HEALING_SEED, &
