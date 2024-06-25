@@ -27,15 +27,15 @@ tbl_AllyStartDefs:
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
                     GIANT_KNUCKLES, &
-                    power water
+                    Power Water
                 
                 startClass KNTE         ; 2: CHESTER
                 startLevel 1
                 startItems &
                     WOODEN_STICK|EQUIPPED, &
                     MEDICAL_HERB, &
-                    power water, &
-                    NOTHING
+                    Power Water, &
+                    Protect Milk
                 
                 startClass WARR         ; 3: JAHA
                 startLevel 1
@@ -43,7 +43,7 @@ tbl_AllyStartDefs:
                     BATON|EQUIPPED, &
                     MEDICAL_HERB, &
                     power water, &
-                    NOTHING
+                    Protect Milk
                 
                 startClass MAGE         ; 4: KAZIN
                 startLevel 4
