@@ -14,7 +14,7 @@ tbl_AllyStartDefs:
 ; Note: Constant names ("enums"), shorthands (defined by macro), and numerical indexes are interchangeable.
                 
                 startClass SDMN         ; 0: BOWIE
-                startLevel 1
+                startLevel 8
                 startItems &
                     WOODEN_SWORD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -22,7 +22,7 @@ tbl_AllyStartDefs:
                     LEVANTER
                 
                 startClass PRST         ; 1: SARAH
-                startLevel 1
+                startLevel 8
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
                     PROTECT_RING|EQUIPPED, &
@@ -45,7 +45,7 @@ tbl_AllyStartDefs:
                     POWER_WATER, &
                     PROTECT_MILK
                 
-                startClass MAGE         ; 4: KAZIN
+                startClass MAGE         ; 8: KAZIN
                 startLevel 4
                 startItems &
                     WOODEN_ROD|EQUIPPED, &
@@ -53,7 +53,7 @@ tbl_AllyStartDefs:
                     FAIRY_POWDER, &
                     BISHOP_ROD
                 
-                startClass THIF         ; 5: SLADE
+                startClass THIF         ; 8: SLADE
                 startLevel 7
                 startItems &
                     SHORT_KNIFE|EQUIPPED, &
